@@ -1,0 +1,101 @@
+.side-bar-container {
+  width: 80px;
+  gap: 40px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 65px;
+  padding-top: 65px;
+  align-items: center;
+  background-color: #ffffff;
+  position: fixed;
+  z-index: 99;
+}
+
+.side-bar-item-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+
+.side-bar-item-icon:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  background: rgba(0, 47, 71, 0.1);
+}
+
+.tooltip-container {
+  visibility: hidden;
+  position: relative;
+  left: 15px;
+  bottom: 20px;
+  width: auto;
+  height: auto;
+  z-index: 5;
+}
+.fill {
+  background: rgba(0, 47, 71, 0.1);
+}
+
+.side-bar-item-icon:hover > .tooltip-container {
+  visibility: visible;
+}
+
+.option-toolkit {
+  display: flex;
+  position: absolute;
+  height: 40px;
+  width: 120px;
+  padding: 9px 32px 9px 32px;
+  left: 3.85%;
+  right: 89.9%;
+  top: 41.29%;
+  bottom: 53.73%;
+  background: #002f47;
+  border-radius: 3px;
+  box-sizing: border-box;
+  box-shadow: 0 26px 58px 0 rgba(0, 0, 0, 0.22),
+    0 5px 14px 0 rgba(0, 0, 0, 0.18);
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.option-toolkit-corner {
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  left: -4px;
+  right: 95.68%;
+  top: 15px;
+  bottom: 53.73%;
+  background: #002f47;
+  transform: rotate(-45deg);
+}
+
+span.visited {
+  display: none;
+}
+
+.side-bar-item-icon:hover > span.icon-set {
+  display: none;
+}
+
+.side-bar-item-icon:hover > span.visited {
+  display: block;
+}
+.side-bar-item-icon:hover > span.icon-selected {
+  display: none;
+}

@@ -1,0 +1,268 @@
+.main-outer-blog-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 25px 0px 0px 357px;
+}
+
+.main-blog-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 25px;
+  margin: 15px 0px 25px 0px;
+  padding-bottom: 30px;
+  width: calc(100vw - 277px);
+  overflow-x: scroll;
+}
+
+.blog-card-container {
+  width: 399px;
+  height: 324px;
+  background: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  position: relative;
+}
+
+.blog-section-heading {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #002f47;
+  margin-bottom: 15px;
+}
+
+.card-image-section {
+  display: flex;
+  width: inherit;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 6px 6px 0px 0px;
+}
+
+button.read-article {
+  width: 170px;
+  height: 40px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  background: #fd7175;
+  border-radius: 6px;
+  padding: 8px 32px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  z-index: 5;
+  display: none;
+  cursor: pointer;
+}
+
+.card-image-section:hover {
+  filter: brightness(70%);
+}
+
+.card-image-section:hover + button.read-article,
+button.read-article:hover {
+  display: flex;
+}
+
+button.take-a-quiz:hover {
+  display: flex;
+  cursor: pointer;
+}
+
+.card-detail-container {
+  display: flex;
+  padding: 13px;
+  justify-content: space-between;
+}
+
+.blog-name {
+  width: 228px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #002f47;
+}
+
+.blog-type {
+  display: flex;
+  gap: 23px;
+}
+
+.blog-quiz {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.blog-circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid #9c9c9c;
+}
+
+.blog-type-text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #9c9c9c;
+}
+
+.blog-open-container {
+  width: 836px;
+  min-height: 535px;
+  display: flex;
+  margin-top: 27px;
+  margin-left: calc(100vw / 4);
+  flex-direction: column;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.card-wide-image {
+  display: flex;
+  width: 836px;
+  height: 524px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.card-wide-detail {
+  width: 836px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.card-stat {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.card-views {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.card-number {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #002f47;
+}
+
+.blog-quiz1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.blog-intro {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: justify;
+  color: #002f47;
+}
+
+.intro-division {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: justify;
+  color: #fd7175;
+  margin-top: 30px;
+}
+
+.blog-description-heading {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #002f47;
+  margin-top: 61px;
+  margin-bottom: 15px;
+}
+
+.blog-description {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: justify;
+  color: #002f47;
+  margin-bottom: 25px;
+}
+
+button.take-a-quiz {
+  font-family: "Rubik";
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  width: 350px;
+  height: 50px;
+  background: #fd7175;
+  box-shadow: 0px 13px 13px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  margin-bottom: 60px;
+}
+
+.blog-open-section-heading {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: #002f47;
+  margin-bottom: 25px;
+}
